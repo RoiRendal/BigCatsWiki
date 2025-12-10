@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; /* <a href="..."> refreshes/reloads the page but not this */
 import { cats } from '../data/cats';
 
 function Home() {
@@ -11,14 +11,15 @@ function Home() {
       
       {/* 
         RESPONSIVE GRIDS:
-           grid-cols-1 = 1 column  on mobile  (default)
-        md:grid-cols-2 = 2 columns on tablets (medium screens)
-        lg:grid-cols-4 = 4 columns on laptops (large screens)
+           grid-cols-1 = 1 column  on mobile
+        md:grid-cols-2 = 2 columns on tablets
+        lg:grid-cols-3 = 3 columns on laptops
+        xl:grid-cols-4 = 4 columns on big monitors
         gap-6 = spacing between the cards
       */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         
-        {cats.map((cat) => (
+        {cats.map((cat) => (  
           <Link to={`/cat/${cat.id}`} key={cat.id} className="group">
             {/* Card Container */}
             <div className="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300">
