@@ -2,34 +2,50 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav className="bg-white shadow-sm sticky top-0 z-50 border-b border-stone-200 transition-all">
-      <div className="max-w-6xl mx-auto px-4 py-3">
-        {/* RESPONSIVE LAYOUT */}
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-0">
+    <nav className="bg-blue-700 border-b-4 border-black sticky top-0 z-50">
+      
+      <div className="max-w-7xl mx-auto px-4 py-4">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           
-          {/* Logo */}
-          <Link to="/" className="font-bold text-2xl tracking-tighter hover:opacity-80 transition-opacity flex items-center gap-2">
-            🦁 BigCats<span className="text-orange-600">Wiki</span>
+          {/* LOGO: Pixelated or Terminal style text */}
+          <Link to="/" className="group flex items-center gap-2">
+            <div className="bg-white border-2 border-black p-1 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] group-hover:translate-y-1 group-hover:shadow-none transition-all">
+                <span className="text-2xl">🦁</span>
+            </div>
+            <span className="text-3xl font-black text-white tracking-widest uppercase shadow-black drop-shadow-[4px_4px_0_#000]">
+                BigCats<span className="text-yellow-300">Wiki</span>
+            </span>
           </Link>
 
-          {/* Navigation Links */}
-          <div className="flex items-center gap-3 w-full sm:w-auto justify-center sm:justify-end">
+          {/* NAVIGATION LINKS */}
+          <div className="flex flex-wrap justify-center gap-4">
+              
+              {/* RETRO BUTTON: QUIZ */}
               <Link 
                   to="/quiz" 
-                  className="text-sm font-bold text-orange-600 border border-orange-600 px-4 py-2 rounded-full hover:bg-orange-600 hover:text-white transition-colors"
+                  className="bg-green-400 text-black font-bold border-2 border-black px-6 py-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-1 hover:shadow-none transition-all uppercase tracking-wider text-sm"
               >
                   Take Quiz
               </Link>
+
+              {/* RETRO BUTTON: ADD CAT */}
               <Link 
                   to="/add" 
-                  className="text-sm font-bold text-stone-600 hover:text-orange-600 transition-colors whitespace-nowrap"
+                  className="bg-yellow-300 text-black font-bold border-2 border-black px-6 py-2 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-1 hover:shadow-none transition-all uppercase tracking-wider text-sm flex items-center gap-2"
               >
-                  + Add Cat
+                  <span>+</span> Add Entry
               </Link>
+
           </div>
           
         </div>
       </div>
+      
+      {/* DECORATIVE: A scrolling marquee bar (visual only, static for now) */}
+      <div className="bg-black text-white py-1 px-4 text-xs font-mono overflow-hidden whitespace-nowrap border-t-2 border-white">
+        WELCOME TO THE BIG CATS DATABASE /// EST. 2025 /// UNDER CONSTRUCTION
+      </div>
+
     </nav>
   );
 }
