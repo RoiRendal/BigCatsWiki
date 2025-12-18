@@ -37,7 +37,7 @@ function Home() {
                     <span className="text-pink-600">Database</span>
                 </h1>
                 <p className="text-sm md:text-base font-serif font-bold bg-white inline-block border-2 border-black p-2 shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]">
-                    Welcome to the ultimate archive of wild felines.
+                    Welcome to the humble archive of wild felines.
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-3 pt-2 justify-center md:justify-start">
