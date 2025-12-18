@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import tigerLogo from '../assets/tiger-emoji.png';
 
 function Navbar() {
   return (
@@ -10,7 +11,7 @@ function Navbar() {
           {/* LOGO */}
           <Link to="/" className="group flex items-center gap-2">
             <div className="bg-white border-2 border-black p-1 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] group-hover:translate-y-1 group-hover:shadow-none transition-all">
-                <span className="text-2xl">🦁</span>
+                <span className="text-2xl"><img src={tigerLogo} /></span>
             </div>
             <span className="text-3xl font-black text-white tracking-widest uppercase shadow-black drop-shadow-[4px_4px_0_#000]">
                 BigCats<span className="text-yellow-300">Wiki</span>
