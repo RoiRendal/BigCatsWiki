@@ -90,3 +90,6 @@ frontend/
 ├── package.json         # Dependencies
 └── vite.config.js       # Build Tool
 ```
+
+<br></br>
+![Snow Leopard Snowman](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2hjaXF1ZHMyZ3hlbHYyZGlkemZqbTlvbXlxa3d2MThtdXA5cTBtcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/z4PBc9Plief6jm5aU4/giphy.gif)
