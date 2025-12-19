@@ -2,7 +2,7 @@
 
 > **System Status:** ONLINE  
 > **Version:** 1.0.0  
-> **Design Protocol:** Brutalist / Web 1.0
+> **Design Protocol:** Early Internet
 
 ## 📂 Project Overview
 
@@ -37,7 +37,7 @@ This project utilizes the bleeding edge of the React ecosystem:
 *   **Survival Mode:** Players start with 5 Hearts. Wrong answers deplete health.
 *   **Difficulty Levels:** Easy, Medium, and Hard clearance levels.
 *   **Randomized Engine:** Uses the Fisher-Yates algorithm to shuffle questions and answers every session.
-*   **Report Card:** Generates a graded "Mission Report" (S, A, C, F) upon completion.
+*   **Packed Questions:** Each difficulty has 20 items to be answered.
 
 ### 4. Design Philosophy (Web 1.0)
 *   **Brutalist UI:** High contrast, thick borders, hard shadows, and monospaced typography.
