@@ -181,7 +181,7 @@ export const cats = [
     image: snowLeopardImg,
     stats: {
       lifespan: "15-18 years",
-      speed: "58 km/h",
+      speed: "55 km/h",
       weight: "55 kg",
       paws: "Extra Large"
     },
@@ -189,6 +189,42 @@ export const cats = [
       "Snow leopards are incredibly hard to spot in their natural habitat.",
       "Cubs are born with a woolly coat that thickens rapidly in the first month."
     ],
+    sections: [
+      {
+        title: "Physical Characteristics",
+        content: [
+          "The snow leopard's fur is whitish to grey with black spots on the head and neck, with larger rosettes on the back, flanks, and bushy tail. Its muzzle is short, its forehead is domed, and its nasal cavities are large. The fur is thick with hairs measuring 5 to 12 cm (2.0 to 4.7 in) in length, and its underbelly is whitish. They are stocky, short-legged, and slightly smaller than other cats of the genus Panthera, reaching a shoulder height of 56 cm (22 in) and ranging in head-to-body size from 75 to 150 cm (30 to 59 in). Its tail is 80 to 105 cm (31 to 41 in) long. Males average 45 to 55 kg (99 to 121 lb), and females 35 to 40 kg (77 to 88 lb). Occasionally, large males reaching 75 kg (165 lb) and small females under 25 kg (55 lb) have been recorded. Its canine teeth are 28.6 mm (1.13 in) long and are more slender than those of the other Panthera species.",
+          "The snow leopard shows several adaptations for living in cold, mountainous environments. Its small rounded ears help to minimize heat loss, and its broad paws effectively distribute the body weight for walking on snow. Fur on the undersides of the paws enhances its grip on steep and unstable surfaces and helps to minimize heat loss. Its long and flexible tail helps the cat to balance in rocky terrain. The tail is very thick due to fat storage and is covered in a thick layer of fur, which allows the cat to use it like a blanket to protect its face when asleep."
+        ]
+      },
+      {
+        title: "Distribution & Habitat",
+        content: [
+          "The snow leopard is distributed from the west of Lake Baikal through southern Siberia, in the Kunlun Mountains, Altai Mountains, Sayan and Tannu-Ola Mountains, in the Tian Shan, through Tajikistan, Kyrgyzstan, Uzbekistan, and Kazakhstan to the Hindu Kush in eastern Afghanistan, the Karakoram in northern Pakistan, in the Pamir Mountains, the Tibetan Plateau, and in the high elevations of the Himalayas in India, Nepal, and Bhutan. In Mongolia, it inhabits the Mongolian and Gobi Altai Mountains and the Khangai Mountains. In Tibet, it occurs up to the Altyn-Tagh in the north. In northeastern Afghanistan's isolated Wakhan Corridor, it was recorded by camera traps at 16 locations.",
+          "The snow leopard inhabits alpine and subalpine zones at elevations of 3,000 to 4,500 m (9,800 to 14,800 ft), but also lives at lower elevations in the northern part of its range. In summer, it usually lives above the tree line on alpine meadows and in rocky regions at elevations of 2,700 to 6,000 m (8,900 to 19,700 ft). In winter, it descends to elevations around 1,200 to 2,000 m (3,900 to 6,600 ft). It prefers rocky, broken terrain and can move in 85 cm (33 in) deep snow but prefers to use existing trails made by other animals."
+        ]
+      },
+      {
+        title: "Hunting & Diet",
+        content: [
+          "The snow leopard is a carnivore and actively hunts its prey. Its preferred wild prey species are Himalayan blue sheep (Pseudois nayaur), Himalayan tahr (Hemitragus jemlahicus), argali (Ovis ammon), markhor (Capra falconeri), and wild goat (C. aegagrus). It also preys on domestic livestock. It prefers prey ranging in weight from 36 to 76 kg (79 to 168 lb), but also hunts smaller mammals such as the Himalayan marmot (Marmota himalayana) and pika and vole species. Its diet depends on prey availability and varies across its range and season. In the Himalayas, it preys mostly on Himalayan blue sheep, Siberian ibex (C. sibirica), white-bellied musk deer (Moschus leucogaster), and wild boar (Sus scrofa). In the Karakoram, Tian Shan, Altai, and Mongolia's Tost Mountains, its main prey consists of Siberian ibex, Thorold's deer (Cervus albirostris), Siberian roe deer (Capreolus pygargus), and argali.",
+          "Snow leopard feces collected in northern Pakistan also contained remains of rhesus macaque (Macaca mulatta), masked palm civet (Paguma larvata), Cape hare (Lepus capensis), house mouse (Mus musculus), Kashmir field mouse (Apodemus rusiges), grey dwarf hamster (Cricetulus migratorius), and Turkestan rat (Rattus pyctoris). In 2017, a snow leopard was photographed carrying a freshly killed woolly flying squirrel (Eupetaurus cinereus) near Gangotri National Park. In Mongolia, domestic sheep comprises less than 20% of its diet, although wild prey has been reduced and interactions with people are common. It is capable of killing most ungulates in its habitat, with the probable exception of the adult male wild yak. It also eats grass and twigs."
+        ]
+      },
+      {
+        title: "Conservation",
+        content: [
+          "The snow leopard is listed in CITES Appendix I. They have been listed as threatened with extinction in Schedule I of the Convention on the Conservation of Migratory Species of Wild Animals since 1985. Hunting snow leopards has been prohibited in Kyrgyzstan since the 1950s. In India, the snow leopard is granted the highest level of protection under the Wildlife Protection Act, 1972, and hunting is sentenced with imprisonment of 3–7 years. In Nepal, they have been legally protected since 1973, with penalties of 5–15 years in prison and a fine for poaching and trading them. Since 1978, they have been listed in the Soviet Union's Red Book and are still inscribed today in the Red Data Book of the Russian Federation as threatened with extinction. Hunting snow leopards is only permitted for the purposes of conservation and monitoring and to eliminate a threat to the life of humans and livestock. Smuggling of snow leopard body parts is punished with imprisonment and a fine. Hunting snow leopards has been prohibited in Afghanistan since 1986. In China, they have been protected by law since 1989; hunting and trading snow leopards or their body parts constitute a criminal offence that is punishable by the confiscation of property, a fine, and a sentence of at least 10 years in prison. They have been protected in Bhutan since 1995.",
+          "At the end of 2020, 35 cameras were installed on the outskirts of Almaty, Kazakhstan, in hopes of catching footage of snow leopards. In November 2021, it was announced by the Russian World Wildlife Fund (WWF) that snow leopards were spotted 65 times on these cameras in the Trans-Ili Alatau mountains since the cameras were installed."
+        ]
+      },
+      {
+        title: "Etymology",
+        content: [
+          "The Old French word \"once,\" which was intended to be used for the Eurasian lynx (Lynx lynx), is where the Latin name \"uncia\" and the English word \"ounce\" both originate. Once is believed to have originated from a previous form of the word \"lynx\" through a process known as false splitting. The word \"once\" was originally considered to be pronounced as \"l'once,\" where \"l'\" stands for the elided form of the word \"la\" (\"the\") in French. Once was then understood to be the name of the animal. The word \"panther\" derives from the classical Latin \"panthēra,\" itself from the ancient Greek \"πάνθηρ\" (pánthēr), which was used for spotted cats."
+        ]
+      }
+    ]
   }
   /* === Template ===
   {

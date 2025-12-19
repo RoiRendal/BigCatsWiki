@@ -185,6 +185,11 @@ function CatDetail() {
                     <a href="#overview" className="block p-1 hover:bg-black hover:text-white transition-colors">
                         [1.0] Overview
                     </a>
+                    {cat.funFacts && (
+                        <a href="#fun-facts" className="block p-1 hover:bg-black hover:text-white transition-colors">
+                            [REF] Notes/Trivia
+                        </a>
+                    )}
                     {cat.sections && cat.sections.map((section, index) => (
                         <a 
                             key={index} 
@@ -194,11 +199,6 @@ function CatDetail() {
                             [{index + 2}.0] {section.title}
                         </a>
                     ))}
-                    {cat.funFacts && (
-                        <a href="#fun-facts" className="block p-1 hover:bg-black hover:text-white transition-colors">
-                            [REF] Notes/Trivia
-                        </a>
-                    )}
                 </nav>
              </div>
 
