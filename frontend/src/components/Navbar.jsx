@@ -14,7 +14,7 @@ function Navbar() {
                 <span className="text-2xl"><img src={tigerLogo} /></span>
             </div>
             <span className="text-3xl font-black text-white tracking-widest uppercase shadow-black drop-shadow-[4px_4px_0_#000]">
-                BigCats<span className="text-yellow-300">Wiki</span>
+                WildCats<span className="text-yellow-300">Wiki</span>
             </span>
           </Link>
 
@@ -49,7 +49,7 @@ function Navbar() {
       </div>
       
       <div className="bg-black text-white py-1 px-4 text-xs font-mono overflow-hidden whitespace-nowrap border-t-2 border-white">
-        WELCOME TO THE BIG CATS DATABASE /// EST. 2025 /// UNDER CONSTRUCTION
+        WELCOME TO THE WILD CATS DATABASE /// EST. 2025 /// UNDER CONSTRUCTION
       </div>
 
     </nav>

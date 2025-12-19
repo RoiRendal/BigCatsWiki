@@ -25,7 +25,7 @@ function About() {
             <div className="border-2 border-black p-6 bg-yellow-50 font-serif text-lg leading-relaxed shadow-[4px_4px_0px_0px_rgba(0,0,0,0.1)]">
                 <p>
                     <span className="font-bold text-2xl float-left mr-2 mt-[-10px]">T</span>
-                    he Big Cat Database is a static digital archive dedicated to the preservation and education of the world's most majestic felines. 
+                    he Wild Cat Database is a static digital archive dedicated to the preservation and education of the world's most majestic felines. 
                     Designed with a "Brutalist / Web 1.0" philosophy, this system prioritizes raw data density and high-contrast accessibility over modern minimalist trends.
                 </p>
             </div>

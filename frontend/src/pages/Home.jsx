@@ -33,7 +33,7 @@ function Home() {
                     /// EST. 2025 /// FINAL PROJECT
                 </div>
                 <h1 className="text-4xl md:text-6xl font-black tracking-tighter uppercase italic leading-none drop-shadow-[3px_3px_0_#FFF]">
-                    The Big Cat <br/>
+                    The Wild Cat <br/>
                     <span className="text-pink-600">Database</span>
                 </h1>
                 <p className="text-sm md:text-base font-serif font-bold bg-white inline-block border-2 border-black p-2 shadow-[3px_3px_0px_0px_rgba(0,0,0,1)]">
