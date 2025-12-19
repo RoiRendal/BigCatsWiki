@@ -8,7 +8,7 @@ export const cats = [
     id: "tiger",
     attribution: "By Charles James Sharp, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=88142663",
     name: "Tiger",
-    scientificName: "Panthera tigris",
+    scientificName: "Panthera Tigris",
     description: "The tiger (Panthera tigris) is a large cat and a member of the genus Panthera native to Asia. It has a powerful, muscular body with a large head and paws, a long tail, and orange fur with black, mostly vertical stripes. It is traditionally classified into nine recent subspecies, though some recognise only two subspecies: mainland Asian tigers and the island tigers of the Sunda Islands.",
     image: tigerImg,
     stats: {
@@ -65,7 +65,7 @@ export const cats = [
     id: "lion",
     attribution: "By © Giles Laurent, gileslaurent.com, License CC BY-SA, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=151312926",
     name: "African Lion",
-    scientificName: "Panthera leo",
+    scientificName: "Panthera Leo",
     description: "The lion is a large cat of the genus Panthera native to Africa and India. It uses a cooperative hunting strategy.",
     image: lionImg,
     stats: {
@@ -121,7 +121,7 @@ export const cats = [
     id: "jaguar",
     attribution: "By Charles J. Sharp - Own work, from Sharp Photography, sharpphotography.co.uk, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=87748243",
     name: "Jaguar",
-    scientificName: "Panthera onca",
+    scientificName: "Panthera Onca",
     description: "The jaguar (Panthera onca) is a large cat species and the only living member of the genus Panthera that is native to the Americas. With a body length of up to 1.85 m (6 ft 1 in) and a weight of up to 158 kg (348 lb), it is the biggest cat species in the Americas and the third largest in the world. Its distinctively marked coat features pale yellow to tan colored fur covered by spots that transition to rosettes on the sides, although a melanistic black coat appears in some individuals. The jaguar's powerful bite allows it to pierce the carapaces of turtles and tortoises and to employ an unusual killing method: it bites directly through the skull of mammalian prey between the ears to deliver a fatal blow to the brain.",
     image: jaguarImg,
     stats: {
