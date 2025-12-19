@@ -4,7 +4,8 @@
 > **Version:** 1.0.0  
 > **Design Protocol:** Brutalist / Web 1.0
 
-![Project Banner](https://placehold.co/1200x400/000000/FFFFFF?text=WildCats+Wiki+Project+Preview)
+### Homepage
+![Project Banner](https://github.com/RoiRendal/WildCatsWiki/blob/Documentations/Screenshots/Homepage.png)
 
 ## 📂 Project Overview
 
