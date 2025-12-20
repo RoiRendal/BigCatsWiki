@@ -34,3 +34,6 @@ The cougar is slender and agile. It is the fourth largest cat species; adults st
 Conservation
 
 The cougar is listed on CITES Appendix II. Hunting it is prohibited in Costa Rica, Honduras, Nicaragua, Guatemala, Panama, Venezuela, Colombia, French Guiana, Suriname, Bolivia, Brazil, Chile, Paraguay, Uruguay, and most of Argentina. Hunting is regulated in Canada, Mexico, Peru, and the United States. Establishing wildlife corridors and protecting sufficient range areas are critical for the sustainability of cougar populations. Research simulations showed that it faces a low extinction risk in areas larger than 2,200 km² (850 sq mi). Between one and four new individuals entering a population per decade markedly increases persistence, thus highlighting the importance of habitat corridors.
+
+REFERENCES: 
+Nielsen, C.; Thompson, D.; Kelly, M. & Lopez-Gonzalez, C. A. (2016) [errata version of 2015 assessment]. "Puma concolor". IUCN Red List of Threatened Species. 2015 e.T18868A97216466. doi:10.2305/IUCN.UK.2015-4.RLTS.T18868A50663436.en. Retrieved January 16, 2022.
